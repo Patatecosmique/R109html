@@ -1,0 +1,39 @@
+body {
+    background-image: url("../img/fonds.jpg");
+}
+
+h1 {
+    color: rgb(3, 67, 109);
+    text-align: center;
+    font-family: "RocknRoll One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border:solid;
+}
+
+h2 {
+    color: rgb(3, 67, 109);
+    text-align: center;
+    font-family: "RocknRoll One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section {
+    text-align: center;
+}
+
+ul {
+    margin: auto;
+    width: 15%;
+    text-align: left;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+img {
+    width: 200px;
+    height: 100px;
+}
