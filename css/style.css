@@ -1,35 +1,50 @@
 body {
-    background-image: url("../img/fonds.jpg");
+    background-image: url("../img/istockphoto-1162167657-2048x2048.jpg ");
 }
-
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    line-height: 1.6;
+}
 h1 {
-    color: rgb(3, 67, 109);
-    text-align: center;
-    font-family: "RocknRoll One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    border:solid;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 3rem; 
+    color: beige;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+    margin: 0; 
+    padding: 20px;
+    border-bottom: 2px solid beige;
 }
 
 h2 {
-    color: rgb(3, 67, 109);
+    text-decoration: underline;
+    color: beige;
     text-align: left;
     font-family: "RocknRoll One", sans-serif;
     font-weight: 400;
     font-style: normal;
-  
 }
-
+p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-align: justify;
+}
 section {
     text-align: center;
 }
 
 ul {
+    color: aliceblue;
     margin: auto;
     width: 100%;
     text-align: left;
 }
-
+#formation {
+    color: white;
+}
 div {
     display: flex;
     justify-content: left;
@@ -41,3 +56,4 @@ img {
 
 
 /* Partie reponsive */
+
